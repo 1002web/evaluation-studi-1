@@ -1,0 +1,17 @@
+body {
+    background: #efefef;
+}
+.whiteBackground {
+    background: white;
+}
+.backBackground {
+    background: black;
+}
+.navbar-brand {
+ padding: 0 15px;
+ font-family: 'Caveat', cursive;
+ font-size: 25px;
+}
+.nav-item {
+    padding: 0 5px;
+}
