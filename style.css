@@ -1,12 +1,9 @@
 body {
     background: #efefef;
 }
-.white-background {
-    background: white;
-}
-.black-background {
-    background: black;
-}
+
+/* nav + breadcrumb */
+
 .navbar-brand {
  padding: 0 15px;
  font-family: 'Caveat', cursive;
@@ -18,4 +15,43 @@ body {
 .personnal-breadcrumb {
     background: white;
     padding: 0 0 15px 30px;
+}
+
+/* Carousel */
+
+.carousel-inner {
+    padding: 20px  0; 
+}
+
+/* sections */ 
+
+.white-background {
+    background: white;
+    text-align: center;
+}
+.black-background {
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+section {
+    padding: 15px 0; 
+}
+
+h1 {
+    text-align: center;
+}
+
+p.highlight {
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+@media (max-width: 700px){
+    h1 {
+        font-size: calc(.1em + 4.8vw);
+    }
+    p.highlight {
+        font-size: calc(.1em + 3.5vw);
+    }
 }
