@@ -74,3 +74,10 @@ padding-top: 25px;
     width: auto;
     margin: 0 10px;
 }
+
+/* Event */ 
+
+.date {
+    font-weight: 800;
+    font-size: 20px;
+}
