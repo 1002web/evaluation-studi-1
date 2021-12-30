@@ -1,10 +1,10 @@
 body {
     background: #efefef;
 }
-.whiteBackground {
+.white-background {
     background: white;
 }
-.backBackground {
+.black-background {
     background: black;
 }
 .navbar-brand {
@@ -14,4 +14,8 @@ body {
 }
 .nav-item {
     padding: 0 5px;
+}
+.personnal-breadcrumb {
+    background: white;
+    padding: 0 0 15px 30px;
 }
