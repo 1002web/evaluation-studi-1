@@ -57,3 +57,20 @@ p.highlight {
 h2 {
     padding: 10px 0;
 }
+
+/* Footer */ 
+
+footer {
+    padding-bottom: 20px;
+}
+
+.no-bullet {
+list-style-type: none;
+padding-top: 25px;
+}
+
+.rs-logo {
+    height : 5vh;
+    width: auto;
+    margin: 0 10px;
+}
